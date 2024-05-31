@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.capa {
+    border-radius: 8px;   
+    width: 225px;
+    height: 225px;    
+    }
+
+.capa:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px #222;
+    border-radius: 10px;
+    }
+        
+.icons{
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+   background-color: #00000050;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position:absolute;
+   margin-right: 8px;
+   margin-bottom: 42px;  
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color: 0000000;
+}
+
